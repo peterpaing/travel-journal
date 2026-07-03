@@ -5,15 +5,15 @@ import Cards from "./components/Main"
 export default function App(){
 
   const card = data.map(item=>{
-    return  (
-    <Cards 
-     key ={item.id}
+    return(
+        <Cards
+        key={item.id}
         {...item}
-     />
+        />
     )
-
   })
-    return (
+
+  return (
         <>
         <Header/>
        <main>
