@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color:#FFFFFF;
+    gap:7px;
+}
+
+header img{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+header h1{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: -7.5%;
+}
