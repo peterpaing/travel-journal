@@ -9,9 +9,12 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: "Inter", sans-serif;
+    display: grid;
+    justify-content: center;
 }
 
 header{
+    max-width:550px;
     display: flex;
     height: 55px;
     justify-content: center;
@@ -31,4 +34,74 @@ header h1{
     font-size: 1rem;
     line-height: 100%;
     letter-spacing: -7.5%;
+}
+
+main{
+    max-width:550px;
+    padding: 45px 20px;
+}
+.card{
+    display: flex;
+    gap:19px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card:not(:first-child){
+    padding-top: 18px;
+}
+.card .place-img{
+    width: 125px;
+    height: 168px;
+   border-radius: 5px;
+}
+
+.card .marker{
+    width: 7px;
+    height: 9.5px;
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.card span{
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 100%;
+    letter-spacing: 17%;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.card a{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    color:#918E9B;
+}
+
+.card a:hover,.card a:focus{
+    color:#2B283A;
+}
+
+.card h2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    margin-top: 4px;
+    margin-bottom: 17px;
+}
+
+.card .date{
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 100%;
+}
+
+.card p{
+    font-weight: 400;
+    font-size: 11.24px;
+    line-height: 150%;
+    margin-top: 9px;
 }
