@@ -21,7 +21,7 @@ header{
     align-items: center;
     background-color: #F55A5A;
     color:#FFFFFF;
-    gap:7px;
+    gap:0.4375em;
 }
 
 header img{
@@ -38,17 +38,17 @@ header h1{
 
 main{
     max-width:550px;
-    padding: 45px 20px;
+    padding: 2.8125em 1.25em;
 }
 .card{
     display: flex;
-    gap:19px;
-    padding-bottom: 18px;
+    gap:1.1875em;
+    padding-bottom: 1.125em;
     border-bottom: 1px solid #F5F5F5;
 }
 
 .card:not(:first-child){
-    padding-top: 18px;
+    padding-top: 1.125em;
 }
 .card .place-img{
     width: 125px;
@@ -60,7 +60,7 @@ main{
     width: 7px;
     height: 9.5px;
     display: inline-block;
-    margin-right: 1px;
+    margin-right: 0.0625em;
 }
 
 .card span{
@@ -69,12 +69,12 @@ main{
     line-height: 100%;
     letter-spacing: 17%;
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 0.75em;
 }
 
 .card a{
     font-weight: 400;
-    font-size: 10.24px;
+    font-size: 0.64rem;
     line-height: 100%;
     letter-spacing: 0%;
     text-decoration: underline;
@@ -87,21 +87,21 @@ main{
 
 .card h2{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 100%;
-    margin-top: 4px;
-    margin-bottom: 17px;
+    margin-top: 0.25em;
+    margin-bottom: 1.0625em;
 }
 
 .card .date{
     font-weight: 700;
-    font-size: 10.24px;
+    font-size: 0.64rem;
     line-height: 100%;
 }
 
 .card p{
     font-weight: 400;
-    font-size: 11.24px;
+    font-size: 0.7025rem;
     line-height: 150%;
-    margin-top: 9px;
+    margin-top: 0.5625em;
 }
