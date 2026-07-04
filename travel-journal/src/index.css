@@ -105,3 +105,9 @@ main{
     line-height: 150%;
     margin-top: 0.5625em;
 }
+
+@media (min-width: 769px){
+   header,main{
+        box-shadow: 0.05px 0.5px 0.5px 0.5px #f0eff3;
+    }
+}
